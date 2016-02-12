@@ -32,6 +32,8 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Application definition
 
 INSTALLED_APPS = [
+    'mptt',
+    'gantt',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
